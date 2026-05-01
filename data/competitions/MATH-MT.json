@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "comp": "MATH-MT",
+    "year": 2023,
+    "body": "ถ้า $\\log_2 3=a$ จงหา $\\log_8 9$ ในรูปของ $a$",
+    "options": [
+      "$a/2$",
+      "$2a/3$",
+      "$a/3$",
+      "$3a/2$",
+      "$2a$"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Algebra",
+    "solution": "$\\log_8 9=\\frac{2\\log3}{3\\log2}=\\frac{2}{3}\\log_2 3=\\boxed{\\frac{2a}{3}}$.",
+    "image": null
+  },
+  {
+    "id": 2,
+    "comp": "MATH-MT",
+    "year": 2022,
+    "body": "หาจำนวนวิธีเดินจากจุด $A$ ไป $B$ บนตาราง $4\\times3$ (เดินขวาและลงเท่านั้น)",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "correct": 2,
+    "difficulty": "intermediate",
+    "topic": "Combinatorics",
+    "solution": "$\\binom{7}{3}=\\boxed{35}$.",
+    "image": null
+  },
+  {
+    "id": 3,
+    "comp": "MATH-MT",
+    "year": 2023,
+    "body": "วงกลมสองวง รัศมี 5 และ 12 ศูนย์กลางห่างกัน 13 หน่วย มีกี่จุดร่วม?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "ไม่สิ้นสุด"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Geometry",
+    "solution": "$5^2+12^2=13^2$ → สามเหลี่ยมมุมฉาก → สัมผัสภายนอกพอดี → $\\boxed{1}$ จุด.",
+    "image": null
+  },
+  {
+    "id": 4,
+    "comp": "MATH-MT",
+    "year": 2022,
+    "body": "หา $1+2+3+\\cdots+100$",
+    "options": [
+      "4950",
+      "5000",
+      "5050",
+      "5100",
+      "5150"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "topic": "Number Theory",
+    "solution": "$S=\\frac{100\\times101}{2}=\\boxed{5050}$.",
+    "image": null
+  },
+  {
+    "id": 5,
+    "comp": "MATH-MT",
+    "year": 2023,
+    "body": "พหุนาม $P(x)=x^3+ax^2+bx+c$ โดย $P(1)=0$, $P(-1)=-4$, $P(2)=5$ จงหา $a+b+c$",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 0,
+    "difficulty": "intermediate",
+    "topic": "Algebra",
+    "solution": "$P(1)=1+a+b+c=0\\Rightarrow a+b+c=\\boxed{-1}$.",
+    "image": null
+  },
+  {
+    "id": 6,
+    "comp": "MATH-MT",
+    "year": 2022,
+    "body": "สามเหลี่ยม $ABC$ มี $AB=13$, $BC=14$, $CA=15$ จงหาพื้นที่",
+    "options": [
+      "72",
+      "78",
+      "84",
+      "90",
+      "96"
+    ],
+    "correct": 2,
+    "difficulty": "intermediate",
+    "topic": "Geometry",
+    "solution": "$s=21$. $A=\\sqrt{21\\cdot8\\cdot7\\cdot6}=\\sqrt{7056}=\\boxed{84}$.",
+    "image": null
+  },
+  {
+    "id": 7,
+    "comp": "MATH-MT",
+    "year": 2023,
+    "body": "จงหา $x$ ที่สอดคล้องกับ $2^{x+1}+2^x=48$",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "solution": "$3\\cdot2^x=48\\Rightarrow2^x=16\\Rightarrow x=\\boxed{4}$.",
+    "image": null
+  },
+  {
+    "id": 8,
+    "comp": "MATH-MT",
+    "year": 2022,
+    "body": "ผลเฉลยของ $\\begin{cases}2x+3y=12\\\\5x-2y=1\\end{cases}$",
+    "options": [
+      "$(1,10/3)$",
+      "$(3,2)$",
+      "$(2,8/3)$",
+      "$(27/19,58/19)$",
+      "$(3/2,3)$"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "solution": "$19x=27\\Rightarrow x=27/19$, $y=58/19$. Solution: $(\\boxed{27/19,58/19})$.",
+    "image": null
+  },
+  {
+    "id": 9,
+    "comp": "MATH-MT",
+    "year": 2023,
+    "body": "หาพื้นที่ใต้กราฟ $y=x^2$ ตั้งแต่ $x=0$ ถึง $x=3$",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct": 2,
+    "difficulty": "intermediate",
+    "topic": "Algebra",
+    "solution": "$\\int_0^3 x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_0^3=\\frac{27}{3}=\\boxed{9}$.",
+    "image": null
+  }
+]

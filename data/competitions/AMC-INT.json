@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "comp": "AMC-INT",
+    "year": 2023,
+    "body": "If $\\log_2 x = 5$, what is $\\log_2(x^3)$?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15",
+      "25"
+    ],
+    "correct": 3,
+    "difficulty": "intermediate",
+    "topic": "Algebra",
+    "solution": "$\\log_2(x^3)=3\\log_2 x=3\\times5=\\boxed{15}$.",
+    "image": null
+  },
+  {
+    "id": 2,
+    "comp": "AMC-INT",
+    "year": 2023,
+    "body": "How many integers from 1 to 200 are divisible by 3 or 5?",
+    "options": [
+      "93",
+      "100",
+      "106",
+      "107",
+      "110"
+    ],
+    "correct": 0,
+    "difficulty": "intermediate",
+    "topic": "Number Theory",
+    "solution": "By inclusion-exclusion: $\\lfloor200/3\\rfloor+\\lfloor200/5\\rfloor-\\lfloor200/15\\rfloor=66+40-13=\\boxed{93}$.",
+    "image": null
+  },
+  {
+    "id": 3,
+    "comp": "AMC-INT",
+    "year": 2022,
+    "body": "In triangle $ABC$, $\\angle A=50°$ and $\\angle B=70°$. What is the exterior angle at $C$?",
+    "options": [
+      "60°",
+      "100°",
+      "120°",
+      "130°",
+      "140°"
+    ],
+    "correct": 2,
+    "difficulty": "intermediate",
+    "topic": "Geometry",
+    "solution": "$\\angle C=60°$. Exterior angle$=180°-60°=\\boxed{120°}$ (also $=50°+70°$).",
+    "image": null
+  },
+  {
+    "id": 4,
+    "comp": "AMC-INT",
+    "year": 2023,
+    "body": "A geometric sequence starts 2, 6, 18, 54, ... What is the 8th term?",
+    "options": [
+      "2916",
+      "4374",
+      "8748",
+      "13122",
+      "17496"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Algebra",
+    "solution": "$a=2, r=3$. $a_8=2\\times3^7=2\\times2187=\\boxed{4374}$.",
+    "image": null
+  },
+  {
+    "id": 5,
+    "comp": "AMC-INT",
+    "year": 2022,
+    "body": "In how many ways can 8 people sit in a circle if two specific people must NOT be adjacent?",
+    "options": [
+      "3600",
+      "4320",
+      "5040",
+      "1440",
+      "2520"
+    ],
+    "correct": 0,
+    "difficulty": "intermediate",
+    "topic": "Combinatorics",
+    "solution": "Total$(8-1)!=5040$. Adjacent: $2\\times6!=1440$. Answer: $5040-1440=\\boxed{3600}$.",
+    "image": null
+  },
+  {
+    "id": 6,
+    "comp": "AMC-INT",
+    "year": 2023,
+    "body": "What is the area of a regular hexagon with side length 4?",
+    "options": [
+      "$24\\sqrt{3}$",
+      "$32\\sqrt{3}$",
+      "$48\\sqrt{3}$",
+      "$64\\sqrt{3}$",
+      "$16\\sqrt{3}$"
+    ],
+    "correct": 0,
+    "difficulty": "intermediate",
+    "topic": "Geometry",
+    "solution": "6 equilateral triangles: $6\\times\\frac{\\sqrt3}{4}\\times16=\\boxed{24\\sqrt3}$.",
+    "image": null
+  },
+  {
+    "id": 7,
+    "comp": "AMC-INT",
+    "year": 2022,
+    "body": "What is the area enclosed by the ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$?",
+    "options": [
+      "$6\\pi$",
+      "$8\\pi$",
+      "$12\\pi$",
+      "$16\\pi$",
+      "$18\\pi$"
+    ],
+    "correct": 0,
+    "difficulty": "intermediate",
+    "topic": "Geometry",
+    "solution": "Area$=\\pi ab=\\pi\\times3\\times2=\\boxed{6\\pi}$.",
+    "image": null
+  },
+  {
+    "id": 8,
+    "comp": "AMC-INT",
+    "year": 2023,
+    "body": "If $\\tan\\theta=\\frac{3}{4}$ and $0<\\theta<\\frac{\\pi}{2}$, find $\\sin(2\\theta)$.",
+    "options": [
+      "7/25",
+      "12/25",
+      "24/25",
+      "7/10",
+      "3/5"
+    ],
+    "correct": 2,
+    "difficulty": "intermediate",
+    "topic": "Algebra",
+    "solution": "3-4-5 triangle: $\\sin\\theta=3/5,\\cos\\theta=4/5$. $\\sin2\\theta=2\\cdot\\frac{3}{5}\\cdot\\frac{4}{5}=\\boxed{\\frac{24}{25}}$.",
+    "image": null
+  }
+]

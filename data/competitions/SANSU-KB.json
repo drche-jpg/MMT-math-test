@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "comp": "SANSU-KB",
+    "year": 2023,
+    "body": "What is $111+222+333$?",
+    "options": [
+      "555",
+      "556",
+      "666",
+      "665",
+      "777"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "topic": "Number Theory",
+    "solution": "$111(1+2+3)=111\\times6=\\boxed{666}$.",
+    "image": null
+  },
+  {
+    "id": 2,
+    "comp": "SANSU-KB",
+    "year": 2023,
+    "body": "If today is Wednesday, what day is it 100 days from now?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "correct": 4,
+    "difficulty": "easy",
+    "topic": "Number Theory",
+    "solution": "$100=14\\times7+2$. Wed$+2=$**Friday**.",
+    "image": null
+  },
+  {
+    "id": 3,
+    "comp": "SANSU-KB",
+    "year": 2022,
+    "body": "A farmer has chickens and cows: 20 heads and 56 legs. How many cows?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 2,
+    "difficulty": "intermediate",
+    "topic": "Word Problem",
+    "solution": "$c+k=20$, $4c+2k=56$. Subtracting$\\times2$: $2c=16$, $c=\\boxed{8}$.",
+    "image": null
+  },
+  {
+    "id": 4,
+    "comp": "SANSU-KB",
+    "year": 2022,
+    "body": "ถ้าพรุ่งนี้คือวันอาทิตย์ เมื่อวานคือวันอะไร?",
+    "options": [
+      "วันศุกร์",
+      "วันเสาร์",
+      "วันจันทร์",
+      "วันอังคาร",
+      "วันพุธ"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "topic": "Word Problem",
+    "solution": "พรุ่งนี้อาทิตย์ → วันนี้เสาร์ → เมื่อวาน **ศุกร์**.",
+    "image": null
+  },
+  {
+    "id": 5,
+    "comp": "SANSU-KB",
+    "year": 2023,
+    "body": "What is the perimeter of a square with area 64 cm²?",
+    "options": [
+      "8 cm",
+      "16 cm",
+      "24 cm",
+      "32 cm",
+      "40 cm"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "solution": "Side$=\\sqrt{64}=8$ cm. Perimeter$=4\\times8=\\boxed{32}$ cm.",
+    "image": null
+  }
+]

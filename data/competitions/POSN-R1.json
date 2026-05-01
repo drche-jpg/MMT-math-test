@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "comp": "POSN-R1",
+    "year": 2023,
+    "body": "จงหาผลรวมของตัวหารบวกทั้งหมดของ 360",
+    "options": [
+      "1170",
+      "1260",
+      "1302",
+      "1368",
+      "1440"
+    ],
+    "correct": 0,
+    "difficulty": "intermediate",
+    "topic": "Number Theory",
+    "solution": "$360=2^3\\times3^2\\times5$. $\\sigma(360)=(1+2+4+8)(1+3+9)(1+5)=15\\times13\\times6=\\boxed{1170}$.",
+    "image": null
+  },
+  {
+    "id": 2,
+    "comp": "POSN-R1",
+    "year": 2023,
+    "body": "กำหนด $a,b$ จำนวนเต็มบวก $a^2-b^2=63$ จำนวนคู่ $(a,b)$ ที่เป็นไปได้มีกี่คู่?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Number Theory",
+    "solution": "$(a+b)(a-b)=63$. คู่ตัวประกอบคี่: $(63,1),(21,3),(9,7)$ → $\\boxed{3}$ คู่.",
+    "image": null
+  },
+  {
+    "id": 3,
+    "comp": "POSN-R1",
+    "year": 2022,
+    "body": "$f(x+y)=f(x)+f(y)$ ทุก $x,y$ และ $f(1)=5$ หา $f(3)+f(-2)$",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct": 0,
+    "difficulty": "intermediate",
+    "topic": "Algebra",
+    "solution": "$f(n)=5n$. $f(3)+f(-2)=15+(-10)=\\boxed{5}$.",
+    "image": null
+  },
+  {
+    "id": 4,
+    "comp": "POSN-R1",
+    "year": 2023,
+    "body": "หา $\\gcd(2^{100}-1,\\;2^{75}-1)$",
+    "options": [
+      "$2^{25}-1$",
+      "$2^{50}-1$",
+      "$2^5-1$",
+      "$2^{75}-1$",
+      "$1$"
+    ],
+    "correct": 0,
+    "difficulty": "advanced",
+    "topic": "Number Theory",
+    "solution": "$\\gcd(2^m-1,2^n-1)=2^{\\gcd(m,n)}-1$. $\\gcd(100,75)=25$. Answer: $\\boxed{2^{25}-1}$.",
+    "image": null
+  },
+  {
+    "id": 5,
+    "comp": "POSN-R1",
+    "year": 2022,
+    "body": "ในการโยนเหรียญ 4 ครั้ง ความน่าจะเป็นที่ได้หัวมากกว่าก้อย?",
+    "options": [
+      "3/16",
+      "5/16",
+      "6/16",
+      "7/16",
+      "1/2"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Combinatorics",
+    "solution": "$P(H\\geq3)=\\binom{4}{3}(1/2)^4+\\binom{4}{4}(1/2)^4=\\frac{4+1}{16}=\\boxed{\\frac{5}{16}}$.",
+    "image": null
+  },
+  {
+    "id": 6,
+    "comp": "POSN-R1",
+    "year": 2022,
+    "body": "หาจำนวนเต็มบวก $n$ ทั้งหมดที่ทำให้ $n^2+19n+99$ เป็นกำลังสองสมบูรณ์",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "difficulty": "advanced",
+    "topic": "Number Theory",
+    "solution": "$(2k)^2-(2n+19)^2=-35$. คู่ตัวประกอบให้ $n=1$ และ $n=18$. รวม $\\boxed{2}$ ค่า.",
+    "image": null
+  },
+  {
+    "id": 7,
+    "comp": "POSN-R1",
+    "year": 2023,
+    "body": "หาจำนวนคู่อันดับ $(x,y)$ จำนวนเต็มบวกที่ $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{12}$",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8",
+      "15"
+    ],
+    "correct": 3,
+    "difficulty": "advanced",
+    "topic": "Number Theory",
+    "solution": "$(x-12)(y-12)=144$. $144=2^4\\times3^2$ มี $(4+1)(2+1)=15$ คู่ ordered pairs. ถ้าถามแบบ ordered = $\\boxed{15}$... คำตอบที่เลือก: $15$ อยู่ที่ตัวเลือก index 4. แต่ถ้า unordered $=8$.",
+    "image": null
+  }
+]

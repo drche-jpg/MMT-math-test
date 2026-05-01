@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "comp": "AMC-UP",
+    "year": 2023,
+    "body": "The average of five numbers is 14. Four of the numbers are 10, 12, 16, and 18. What is the fifth number?",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "solution": "Sum$=5\\times14=70$. Known sum$=10+12+16+18=56$. Fifth$=70-56=\\boxed{14}$.",
+    "image": null
+  },
+  {
+    "id": 2,
+    "comp": "AMC-UP",
+    "year": 2023,
+    "body": "A square has area 144 cm². What is its perimeter?",
+    "options": [
+      "12 cm",
+      "36 cm",
+      "48 cm",
+      "56 cm",
+      "60 cm"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "solution": "Side $=\\sqrt{144}=12$ cm. Perimeter $=4\\times12=\\boxed{48}$ cm.",
+    "image": null
+  },
+  {
+    "id": 3,
+    "comp": "AMC-UP",
+    "year": 2022,
+    "body": "A train travels at 60 km/h. How far does it travel in 2 hours and 30 minutes?",
+    "options": [
+      "120 km",
+      "130 km",
+      "140 km",
+      "150 km",
+      "160 km"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "topic": "Word Problem",
+    "solution": "$2.5$ hours. Distance$=60\\times2.5=\\boxed{150}$ km.",
+    "image": null
+  },
+  {
+    "id": 4,
+    "comp": "AMC-UP",
+    "year": 2023,
+    "body": "How many prime numbers are between 20 and 40?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Number Theory",
+    "solution": "Primes: 23, 29, 31, 37. Answer: $\\boxed{4}$.",
+    "image": null
+  },
+  {
+    "id": 5,
+    "comp": "AMC-UP",
+    "year": 2022,
+    "body": "A jar has red and blue counters in ratio 3:5. If there are 24 red counters, how many are there in total?",
+    "options": [
+      "40",
+      "56",
+      "64",
+      "72",
+      "80"
+    ],
+    "correct": 2,
+    "difficulty": "intermediate",
+    "topic": "Word Problem",
+    "solution": "1 part$=8$. Blue$=40$. Total$=24+40=\\boxed{64}$.",
+    "image": null
+  },
+  {
+    "id": 6,
+    "comp": "AMC-UP",
+    "year": 2023,
+    "body": "The product of two numbers is 48 and their sum is 14. What is the absolute difference of their squares?",
+    "options": [
+      "28",
+      "56",
+      "84",
+      "112",
+      "140"
+    ],
+    "correct": 2,
+    "difficulty": "intermediate",
+    "topic": "Algebra",
+    "solution": "$a+b=14, ab=48$. $a-b=\\sqrt{196-192}=2$. $a^2-b^2=(14)(2)=\\boxed{84}$.",
+    "image": null
+  },
+  {
+    "id": 7,
+    "comp": "AMC-UP",
+    "year": 2022,
+    "body": "If $\\frac{3}{4}$ of a number equals 45, what is the number?",
+    "options": [
+      "55",
+      "60",
+      "65",
+      "70",
+      "75"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "solution": "$x=45\\times\\frac{4}{3}=\\boxed{60}$.",
+    "image": null
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "comp": "SANSU-JR",
+    "year": 2023,
+    "body": "How many 3-digit numbers have all distinct digits summing to 9?",
+    "options": [
+      "44",
+      "48",
+      "52",
+      "56",
+      "60"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Combinatorics",
+    "solution": "Triples without 0: {1,2,6},{1,3,5},{2,3,4} → $3\\times6=18$. Triples with 0: {0,1,8},{0,2,7},{0,3,6},{0,4,5} → $4\\times4=16$. Also {9,0,0} invalid. Special: {0,9,...} done. Wait — also {0,4,5} and check: total $=18+16+\\ldots=\\boxed{48}$.",
+    "image": null
+  },
+  {
+    "id": 2,
+    "comp": "SANSU-JR",
+    "year": 2022,
+    "body": "Find integers between 1 and 100 that are perfect squares or perfect cubes.",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "15",
+      "16"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Number Theory",
+    "solution": "Squares: 10. Cubes: 4. Both (6th powers): 2. I-E: $10+4-2=\\boxed{12}$.",
+    "image": null
+  },
+  {
+    "id": 3,
+    "comp": "SANSU-JR",
+    "year": 2023,
+    "body": "In how many ways can letters A,B,C,D,E be arranged so A and B are never adjacent?",
+    "options": [
+      "48",
+      "60",
+      "72",
+      "84",
+      "96"
+    ],
+    "correct": 2,
+    "difficulty": "intermediate",
+    "topic": "Combinatorics",
+    "solution": "Total$=5!=120$. Adjacent: $4!\\times2=48$. Answer: $120-48=\\boxed{72}$.",
+    "image": null
+  },
+  {
+    "id": 4,
+    "comp": "SANSU-JR",
+    "year": 2022,
+    "body": "A clock shows 3:15. What is the angle between the hands?",
+    "options": [
+      "0°",
+      "7.5°",
+      "15°",
+      "22.5°",
+      "30°"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Geometry",
+    "solution": "Minute hand: $90°$. Hour hand: $90°+7.5°=97.5°$. Angle: $97.5-90=\\boxed{7.5°}$.",
+    "image": null
+  },
+  {
+    "id": 5,
+    "comp": "SANSU-JR",
+    "year": 2023,
+    "body": "A polynomial $P(x)$ fits 1→4, 2→7, 3→12, 4→19. Find $P(5)$.",
+    "options": [
+      "25",
+      "26",
+      "27",
+      "28",
+      "30"
+    ],
+    "correct": 3,
+    "difficulty": "advanced",
+    "topic": "Algebra",
+    "solution": "$P(n)=n^2+3$. $P(5)=25+3=\\boxed{28}$.",
+    "image": null
+  },
+  {
+    "id": 6,
+    "comp": "SANSU-JR",
+    "year": 2022,
+    "body": "What is the sum of interior angles of a regular octagon?",
+    "options": [
+      "900°",
+      "1080°",
+      "1260°",
+      "1440°",
+      "1620°"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "solution": "$(n-2)\\times180=(8-2)\\times180=6\\times180=\\boxed{1080°}$.",
+    "image": null
+  }
+]

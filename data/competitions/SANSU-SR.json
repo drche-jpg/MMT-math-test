@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "comp": "SANSU-SR",
+    "year": 2023,
+    "body": "How many arrangements does BANANA have?",
+    "options": [
+      "60",
+      "72",
+      "120",
+      "360",
+      "720"
+    ],
+    "correct": 0,
+    "difficulty": "intermediate",
+    "topic": "Combinatorics",
+    "solution": "$\\frac{6!}{3!2!}=\\frac{720}{12}=\\boxed{60}$.",
+    "image": null
+  },
+  {
+    "id": 2,
+    "comp": "SANSU-SR",
+    "year": 2023,
+    "body": "In how many ways can 8 people sit in a circle if two specific people must NOT be adjacent?",
+    "options": [
+      "3600",
+      "4320",
+      "5040",
+      "1440",
+      "2520"
+    ],
+    "correct": 0,
+    "difficulty": "intermediate",
+    "topic": "Combinatorics",
+    "solution": "$7!-2\\cdot6!=5040-1440=\\boxed{3600}$.",
+    "image": null
+  },
+  {
+    "id": 3,
+    "comp": "SANSU-SR",
+    "year": 2022,
+    "body": "Find positive integers up to 1000 whose digits are all distinct and sum to 10.",
+    "options": [
+      "52",
+      "60",
+      "66",
+      "72",
+      "80"
+    ],
+    "correct": 2,
+    "difficulty": "advanced",
+    "topic": "Combinatorics",
+    "solution": "2-digit: 8 numbers. 3-digit: 58 numbers. Total $=\\boxed{66}$.",
+    "image": null
+  },
+  {
+    "id": 4,
+    "comp": "SANSU-SR",
+    "year": 2022,
+    "body": "Find the coefficient of $x^3$ in $(2x-3)^5$.",
+    "options": [
+      "-720",
+      "720",
+      "-480",
+      "480",
+      "1080"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Algebra",
+    "solution": "$\\binom{5}{3}(2x)^3(-3)^2=10\\cdot8\\cdot9\\cdot x^3=\\boxed{720}x^3$.",
+    "image": null
+  },
+  {
+    "id": 5,
+    "comp": "SANSU-SR",
+    "year": 2023,
+    "body": "How many non-attacking rooks can be placed on a $4\\times4$ chessboard (one per row, one per column)?",
+    "options": [
+      "16",
+      "24",
+      "64",
+      "256",
+      "None of these"
+    ],
+    "correct": 1,
+    "difficulty": "intermediate",
+    "topic": "Combinatorics",
+    "solution": "Choose column for each row: $4!=\\boxed{24}$ ways.",
+    "image": null
+  }
+]
