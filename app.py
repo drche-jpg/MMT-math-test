@@ -10,7 +10,7 @@ import streamlit as st
 
 # ── page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="MathComp — Competition Exam Platform",
+    page_title="Math Mission Thailand MathComp — Competition Exam Platform",
     page_icon="✦",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -2821,7 +2821,7 @@ with st.sidebar:
                 border-top:1px solid rgba(255,255,255,0.07);
                 font-size:10.5px;color:rgba(255,255,255,0.35);
                 line-height:1.6;">
-      © 2024 Dr.Che<br>
+      © 2026 Dr.Che<br>
       <span style="color:rgba(201,168,76,0.6);">Math Mission Thailand</span><br>
       All rights reserved.
     </div>
@@ -3052,7 +3052,7 @@ st.markdown("""
 <div style="margin-top:3rem;padding:1.25rem 0 .5rem;
             border-top:.5px solid #DDD8CC;text-align:center;
             font-size:12px;color:#AAA;line-height:1.8;">
-  © 2024 <strong style="color:#8B6914;">Dr.Che · Math Mission Thailand</strong>
+  © 2026 <strong style="color:#8B6914;">Dr.Che · Math Mission Thailand</strong>
   &nbsp;·&nbsp; All rights reserved
   &nbsp;·&nbsp; MathComp Competition Exam Platform
 </div>
