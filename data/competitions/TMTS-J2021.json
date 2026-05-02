@@ -1,0 +1,32 @@
+[
+  {
+    "comp": "TMTS-J2021",
+    "year": 2021,
+    "body": "Given a triangle ABC such that AC = √58 - 3, AB = 6 and ∠A = 2∠B, find the length of BC.",
+    "question_type": "fill",
+    "options": [],
+    "correct": 0,
+    "correct_answer": "7",
+    "difficulty": "intermediate",
+    "topic": "Geometry",
+    "solution": "Let ∠B = β, then ∠A = 2β. Let ∠C = γ. We have 2β + β + γ = 180°, so γ = 180° - 3β.\n\nUsing the Law of Sines: AC/sin B = AB/sin C = BC/sin A\n\nSo (√58 - 3)/sin β = 6/sin(180° - 3β) = BC/sin 2β\n\nSince sin(180° - 3β) = sin 3β, we have:\n(√58 - 3)/sin β = 6/sin 3β\n\nUsing sin 3β = 3sin β - 4sin³β = sin β(3 - 4sin²β):\n(√58 - 3)/sin β = 6/(sin β(3 - 4sin²β))\n\n(√58 - 3)(3 - 4sin²β) = 6\n3 - 4sin²β = 6/(√58 - 3)\n\nRationalizing: 6/(√58 - 3) = 6(√58 + 3)/(58 - 9) = 6(√58 + 3)/49\n\n3 - 4sin²β = 6(√58 + 3)/49\n4sin²β = 3 - 6(√58 + 3)/49 = (147 - 6√58 - 18)/49 = (129 - 6√58)/49\nsin²β = (129 - 6√58)/196\n\nUsing Law of Cosines with BC = a:\na² = AB² + AC² - 2·AB·AC·cos A\n\nAlso, from Law of Sines: a = AC·sin 2β/sin β = AC·2cos β = 2(√58 - 3)cos β\n\nWe need cos β. Using cos²β = 1 - sin²β = 1 - (129 - 6√58)/196 = (67 + 6√58)/196\n\ncos β = √(67 + 6√58)/14\n\nNote that 67 + 6√58 = 67 + 6√58. We can verify: (√58 + 3)² = 58 + 6√58 + 9 = 67 + 6√58\n\nSo cos β = (√58 + 3)/14\n\nTherefore: BC = 2(√58 - 3)·(√58 + 3)/14 = 2(58 - 9)/14 = 2(49)/14 = 98/14 = 7\n\nThe length of BC is 7.",
+    "image": null,
+    "figure": null,
+    "id": 1
+  },
+  {
+    "comp": "TMTS-J2021",
+    "year": 2021,
+    "body": "It is given that 2^2020 is a 609-digit number whose first digit is 1. How many of the numbers 2^k, 1 ≤ k ≤ 2019, have first digit equal to 4?",
+    "question_type": "fill",
+    "options": [],
+    "correct": 0,
+    "correct_answer": "196",
+    "difficulty": "intermediate",
+    "topic": "Number Theory",
+    "solution": "The first digit of a number N is determined by the fractional part of log₁₀(N). For 2^k, we need the fractional part of k·log₁₀(2).\n\nThe first digit is 4 when log₁₀(4) ≤ {k·log₁₀(2)} < log₁₀(5), i.e., when the fractional part falls in [log₁₀(4), log₁₀(5)) = [0.60206..., 0.69897...).\n\nSince 2^2020 has 609 digits with first digit 1:\n- Number of digits = ⌊2020·log₁₀(2)⌋ + 1 = 609, so ⌊2020·log₁₀(2)⌋ = 608\n- First digit is 1 means {2020·log₁₀(2)} ∈ [0, log₁₀(2))\n\nLet α = log₁₀(2) ≈ 0.30103. We need to count k ∈ {1,2,...,2019} where {kα} ∈ [log₁₀(4), log₁₀(5)) = [2α, log₁₀(5)).\n\nThe length of this interval is log₁₀(5) - log₁₀(4) = log₁₀(5/4) ≈ 0.09691.\n\nBy the equidistribution theorem (Weyl's theorem), since α is irrational, the fractional parts {kα} are equidistributed. The expected count is approximately 2019 × (log₁₀(5) - log₁₀(4)).\n\nMore precisely, we count the number of k where ⌊kα + (1-2α)⌋ - ⌊(k-1)α + (1-2α)⌋ = 1 for the interval starting at 2α.\n\nUsing the three-distance theorem and properties of continued fractions:\nThe count equals ⌊2019·log₁₀(5)⌋ - ⌊2019·log₁₀(4)⌋ or similar floor expressions.\n\n⌊2019·log₁₀(5)⌋ = ⌊2019 × 0.69897...⌋ = ⌊1411.02...⌋ = 1411\n⌊2019·log₁₀(4)⌋ = ⌊2019 × 0.60206...⌋ = ⌊1215.36...⌋ = 1215\n\nThe count of k ∈ {1,...,2019} with first digit 4 is 1411 - 1215 = 196.\n\nVerification: For k from 1 to n, count = ⌊n·log₁₀(5)⌋ - ⌊n·log₁₀(4)⌋.\nFor n = 2019: ⌊1411.02⌋ - ⌊1215.36⌋ = 1411 - 1215 = 196.\n\nThe answer is 196.",
+    "image": null,
+    "figure": null,
+    "id": 2
+  }
+]
